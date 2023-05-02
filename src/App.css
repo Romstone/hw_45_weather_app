@@ -31,9 +31,9 @@ body {
 
 .info {
   height: 55vh;
-  background: url('/src/img/polygon.jpg') center center no-repeat;
+  /*background: url('/src/img/polygon.jpg') center center no-repeat;*/
   background-blend-mode: multiply;
-  background-color: #484747;
+  background-color: #2a6bb1;
   border: 2px solid #1f1f1f;
   border-right: 2px solid #131e29;
   background-size: cover;
@@ -42,6 +42,11 @@ body {
   justify-content: center;
   text-align: center;
   color: #8e8989;
+}
+
+.info>img {
+  height: 100%;
+  width: 100%;
 }
 
 .form {

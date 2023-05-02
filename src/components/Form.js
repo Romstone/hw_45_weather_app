@@ -1,6 +1,6 @@
 import React from 'react';
 import {useDispatch} from "react-redux";
-import {getWeatherAction} from "../redux/actions/weatherActions";
+import {getPictureAction, getWeatherAction} from "../redux/reducers/weatherReducer";
 
 const Form = () =>
 {
@@ -10,6 +10,7 @@ const Form = () =>
         e.preventDefault();
         const city = e.target.city.value;
         dispatch(getWeatherAction(city));
+        dispatch(getPictureAction(city));
     }
 
     return (

@@ -2,7 +2,7 @@ import {useSelector} from "react-redux";
 
 const Weather = () =>
 {
-    const {weather} = useSelector(state => state);
+    const {weather} = useSelector(state => state.city);
     if (weather.name)
     {
         const sunrise = new Date(weather.sys.sunrise * 1000).toLocaleTimeString();

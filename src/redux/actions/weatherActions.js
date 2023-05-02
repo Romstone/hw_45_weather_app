@@ -1,4 +1,4 @@
-import {api_key, base_url} from "../../constants/constants";
+/*import {api_key, base_url} from "../../constants/constants";
 
 export const WEATHER_INFO = 'WEATHER_INFO';
 
@@ -15,4 +15,4 @@ export const getWeatherAction = city =>
             .then(response => response.json())
             .then(data => dispatch(cityInfoAction(data)));
     }
-}
+}*/
